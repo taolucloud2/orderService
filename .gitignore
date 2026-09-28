@@ -12,6 +12,8 @@ yarn-error.log*
 # Ignore environment files
 .env
 .env.*.local
+.env.*
+!.env.example
 
 # Ignore test result directories
 coverage/
